@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "package": "tfar.levelxenchants.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "levelxenchants.refmap.json",
+  "mixins": [
+    "ArrowDamageEnchantmentMixin",
+    "ArrowKnockbackEnchantmentMixin",
+    "ArrowPiercingEnchantmentMixin",
+    "DamageEnchantmentMixin",
+    "DigDurabilityEnchantmentMixin",
+    "DiggingEnchantmentMixin",
+    "FireAspectEnchantmentMixin",
+    "FishingSpeedEnchantmentMixin",
+    "FrostWalkerEnchantmentMixin",
+    "KnockbackEnchantmentMixin",
+    "LootBonusEnchantmentMixin",
+    "OxygenEnchantmentMixin",
+    "ProtectionEnchantment$TypeAccess",
+    "ProtectionEnchantmentMixin",
+    "QuickChargeEnchantmentMixin",
+    "SoulSpeedEnchantmentMixin",
+    "SweepingEdgeEnchantmentMixin",
+    "SwiftSneakEnchantmentMixin",
+    "ThornsEnchantmentMixin",
+    "TridentImpalerEnchantmentMixin",
+    "TridentLoyaltyEnchantmentMixin",
+    "TridentRiptideEnchantmentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
